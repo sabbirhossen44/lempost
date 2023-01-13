@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+}
+.maindiv{
+    width: 2000px;
+    margin: 0 auto;
+}
+.manuVar{
+    width: 100%;
+    
+}
+.menu{
+    width: 4%;
+    float: left;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.logo{
+    width: 5%;
+    float: left;
+    margin-top: 32px;
+}
+.lamp{
+    margin-left: 500px;
+}
+.topManu{
+    margin-top: -360px;
+
+    width: 50%;
+    float: right;
+}
+
+.topManu ul{
+    list-style-type: none;
+    float: left;
+    
+}
+
+.topManu ul li{
+    display: inline-block;
+    padding: 0px 25px;
+    font-size: 25px;
+    
+}
+
+.topManu ul li a{
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 20px;
+}
+
+.topManu ul li a:hover{
+    background-color: #014528;
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+.light{
+    width: 20%;
+    margin-left: 210px;
+    
+}
+.light img{
+    margin-top: -10px;
+}
+.rightSite{
+    width: 50%;
+    color: #fff;
+    float: right;
+    margin-top: -650px;
+}
+.para1{
+    font-size: 90px;
+}
+.para2{
+    font-size: 90px;
+}
+.para3{
+    line-height:25px;
+    letter-spacing: 1.5px;
+}
+.button{
+    width: 50%;
+    float: right;
+    margin-top: -320px;
+}
+
+.button button{
+    background-color: #014528;
+    color: #fff;
+    border: 2px solid #014528;
+    padding: 8px 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 20px;
+}
